@@ -32,4 +32,5 @@ func init() {
 	RootCmd.AddCommand(transfer.Cmd)
 	RootCmd.AddCommand(transferref.Cmd)
 	RootCmd.CompletionOptions.HiddenDefaultCmd = true
+	RootCmd.SilenceUsage = true
 }
